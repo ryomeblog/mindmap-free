@@ -7,6 +7,7 @@ const AppRouter = () => {
     <Router>
       <Routes>
         <Route path="/" element={<MindMapPage />} />
+        <Route path="/mindmap-free" element={<MindMapPage />} />
       </Routes>
     </Router>
   );
